@@ -1,0 +1,101 @@
+.epic-color-menu{
+  position: relative;
+  top: -11px;
+  left: -15px;
+  height: 38px;
+  width: 6px;
+}
+
+.global-query{
+  margin-top: 3px;
+}
+
+.navbar.project-header{
+	border: none;
+	border-radius: 0px;
+	color: #e7e7e7;
+	margin: 0px;
+  margin-top: -23px;
+	padding: 10px;
+	background: #646464;
+	border-bottom: #505050;
+}
+
+.task-overflowed {
+    position: absolute;
+    top: 132px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.progress{
+  margin-top: 2px;
+}
+
+.project-task-name {
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+
+.project-header h1{
+	margin-top: 13px;
+}
+
+.project-tools{
+  padding-right: 20px;
+  padding-top: 14px;
+}
+
+.overflowed{
+  overflow-y: auto;
+  position: absolute;
+  top: 125px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.avatar{
+  float: left;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+/* TASK ITEMS */
+.task-card{
+  padding: 1px;
+}
+
+.task-create-scroller, .project-settings-scroller, .all-projects-scroller{
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 136px;
+}
+
+.project-settings-scroller, .all-projects-scroller{
+  top: 126px;
+}
+
+.panel-heading > .row > div.title{
+  margin-top: 2px;
+}
+
+.timesheet-updating{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 47px;
+  background: #ccc;
+  z-index: 100;
+  opacity: 0.7;
+  display: none;
+}
+
+.timesheet-container{
+  top: 128px !important;
+}

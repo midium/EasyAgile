@@ -1,0 +1,97 @@
+.epic-color-menu{
+  position: relative;
+  top: -16px;
+  left: -24px;
+  height: 50px;
+  width: 6px;
+}
+
+.global-query{
+  margin-top: 3px;
+}
+
+.task-overflowed{
+  position: absolute;
+  top: 141px;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow-y: auto;
+}
+
+.navbar.project-header{
+	border: none;
+	border-radius: 0px;
+	color: #e7e7e7;
+	margin: 0px;
+  margin-top: -15px;
+	padding: 10px;
+	background: #646464;
+	border-bottom: #505050;
+}
+
+.project-manager{
+  position: relative;
+  top: 2px;
+}
+
+.project-header h1{
+	margin-top: 17px;
+}
+
+.project-tools{
+  padding-right: 20px;
+  padding-top: 14px;
+}
+
+.overflowed{
+  overflow-y: auto;
+  position: absolute;
+  top: 142px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.avatar{
+  float: left;
+  margin-top: 12px;
+  border: 1px solid #ccc;
+}
+
+.task-create-scroller, .project-settings-scroller, .all-projects-scroller{
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 141px;
+}
+
+.project-settings-scroller, .all-projects-scroller{
+  top: 142px;
+}
+
+.panel-heading > .row > div.title{
+  margin-top: 10px;
+}
+
+#edit > form > .input-group-sm > .form-control, #edit > form > .input-group-sm > .input-group-btn > .btn{
+  padding: 7px 10px !important;
+}
+
+.task-creator, .task-owner{
+  text-transform: uppercase;
+}
+
+.timesheet-updating{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 65px;
+  background: #ccc;
+  z-index: 100;
+  opacity: 0.7;
+  display: none;
+}
