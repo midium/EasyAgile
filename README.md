@@ -1,5 +1,5 @@
 # EasyAgile #
-Easy Agile is a small and easy to use agile ticketing system based on Laravel and MySql.
+Easy Agile is a small and easy to use agile ticketing system based on Laravel and MySql. The project is still ongoing but it is already in a good shape.
 
 ## Server Requirements ##
 - Composer installed on your remote system
